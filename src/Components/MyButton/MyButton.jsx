@@ -1,6 +1,6 @@
 import "./MyButton.css"
 
-const MyButton = ({children}) => {
+const MyButton = () => {
 
   function MyButton() {
     return <button>I'm a button</button>;
@@ -8,7 +8,6 @@ const MyButton = ({children}) => {
 
   return (
     <div className="MyButton">
-      {children}
       <h1>Welcome to my app</h1>
       <MyButton />
     </div>

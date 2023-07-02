@@ -7,7 +7,6 @@ const Aulas = ({tituloAula, children}) => {
             <div className="cards">
                 {children}
             </div>
-            <hr />
         </section>
     )
 }

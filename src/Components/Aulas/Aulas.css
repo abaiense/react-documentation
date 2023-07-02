@@ -1,9 +1,26 @@
 .aulas {
-  padding: 20px;
+    padding: 20px;
+    background-color: #343a46;
+    border: 1px solid #464c56;
+    width: 800px;
+    margin: 16px 0;
+    border-radius: 16px;
 }
 
-.aulas .cards {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
+.aulas h2{
+    margin-top: 0;
+}
+
+.aulas .cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.aulas .cards div{
+    background-color: #1e2228;
+    margin: 12px;
+    padding: 18px;
+    border-radius: 6px;
+    min-width: 300px;
 }
