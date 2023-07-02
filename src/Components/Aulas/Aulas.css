@@ -1,0 +1,9 @@
+.aulas {
+  padding: 20px;
+}
+
+.aulas .cards {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
