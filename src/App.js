@@ -1,7 +1,7 @@
 import "./App.css";
 import Aulas from "./Components/Aulas";
-import Card from "./Components/Card";
 import Condicional from "./Components/Condicional";
+import Map from "./Components/Map";
 import MyButton from "./Components/MyButton/MyButton";
 import MyButton02 from "./Components/MyButton/MyButton02";
 import Perfil from "./Components/Perfil";
@@ -23,6 +23,11 @@ function App() {
       <Aulas tituloAula={"Aula - 03"}>
         <Condicional isLoggedIn={true} />
       </Aulas>
+
+      <Aulas tituloAula={"Aula - 04 - Map"}>
+        <Map />
+      </Aulas>
+
     </div>
   );
 }
